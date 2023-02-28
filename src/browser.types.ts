@@ -1,0 +1,15 @@
+export type BrowserMethods =
+    | 'clearCookie'
+    | 'clearCookies'
+    | 'clearLocalStorage'
+    | 'reload'
+    | 'screenshot'
+    | 'scrollTo'
+    | 'session'
+    | 'setCookie'
+    | 'should'
+    | 'title'
+    | 'then'
+    | 'url'
+    | 'viewport'
+    | 'visit';

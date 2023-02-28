@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RouteHandler wait should throw an error when route alias is  1`] = `"A route alias cannot be null§undefined or empty"`;
+
+exports[`RouteHandler wait should throw an error when route alias is  2`] = `"A route alias cannot be null§undefined or empty"`;
+
+exports[`RouteHandler wait should throw an error when route alias is  3`] = `"A route alias cannot be null§undefined or empty"`;
