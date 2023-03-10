@@ -1,6 +1,9 @@
 {
-    "name": "@axa-fr/cypress-components",
+    "name": "@axa-fr/cypress-component",
     "private": false,
+    "publishConfig": {
+      "access": "public"
+    },
     "version": "2.1.1",
     "description": "This package aims to facilitate the reading and writing of Cypress tests. It improves the accessibility of DOM elements via a component-based approach, like current web frameworks. It also facilitates the management of routes whether in a plugged or unplugged environment.",
     "author": "Pirlouit PROVIS",
