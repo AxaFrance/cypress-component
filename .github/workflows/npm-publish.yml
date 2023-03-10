@@ -35,6 +35,11 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 16
+          
+      - name: Setup User
+        run: |
+          git config --global user.email "thenkod@hotmail.com"
+          git config --global user.name "Pirlouit"
 
       - name: npm version ${{ steps.tag_version.outputs.new_tag }}
         if: github.ref == 'refs/heads/main'
@@ -43,8 +48,8 @@ jobs:
       - name: npm ci
         run: npm ci
 
-      - name: npm prepare
-        run: npm run prepare
+      - name: npm buld
+        run: npm run build
         
       - name: npm test
         run: npm test -- --runInBand --coverage --watchAll=false
