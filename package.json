@@ -1,20 +1,11 @@
 {
     "name": "@axa-fr/cypress-component",
-    "private": false,
-    "publishConfig": {
-      "access": "public"
-    },
-    "version": "2.1.1",
+    "version": "1.0.0",
     "description": "This package aims to facilitate the reading and writing of Cypress tests. It improves the accessibility of DOM elements via a component-based approach, like current web frameworks. It also facilitates the management of routes whether in a plugged or unplugged environment.",
     "author": "Pirlouit PROVIS",
     "license": "MIT",
-    "keywords": [
-        "cypress",
-        "test",
-        "e2e",
-        "integration"
-    ],
-    "main": "./dist",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "scripts": {
         "test": "jest",
         "build": "npm-run-all clean transpile-ts",
@@ -35,5 +26,19 @@
     },
     "peerDependencies": {
         "cypress": ">=8.0.0"
-    }
+    },
+    "private": false,
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/"
+    },
+    "files": [
+        "dist"
+    ],
+    "keywords": [
+        "cypress",
+        "test",
+        "e2e",
+        "integration"
+    ]
 }
